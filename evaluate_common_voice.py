@@ -49,9 +49,9 @@ class ASREvaluator:
         print(f"Average WER: {average_wer}")
 
 # Example usage:
-model_id = "whisper-base-fn"
+model_id = "whisper-base-fn"  # or set fine_tuned model folder  
 dataset_name = "bn"
-dataset_split = "test"
+dataset_split = "test"  # download the text.7z and extract. set path accordingly. 
 project_name = "bnasr_evaluation_cv9"
 asr_evaluator = ASREvaluator(model_id, dataset_name, dataset_split, project_name)
 asr_evaluator.evaluate()
