@@ -12,6 +12,8 @@ python trainer.py
 ``` 
 Run evaluator: 
 ```
+python evaluate_common_voice.py
+python fleurs.py
 ```
 
 For Statistical significance test between two ASR models using bootstrap sampling: 
