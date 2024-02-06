@@ -15,6 +15,5 @@ Run evaluator:
 ```
 
 For Statistical significance test between two ASR models using bootstrap sampling: 
-Please use this: 
-[ASR-statistical-significance-using-bootstrap-sampling](https://github.com/jakariaemon/ASR-statistical-significance-using-bootstrap-sampling)
+[ASR-statistical-significance](https://github.com/jakariaemon/ASR-statistical-significance-using-bootstrap-sampling)
 
