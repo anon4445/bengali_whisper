@@ -6,6 +6,9 @@
 Download the augmented dataset:  
 [Bengali-Whisper_CV9_Augmented Huggingface](https://huggingface.co/datasets/emon-j/Bengali-Whisper_CV9_Augmented)
 
+Trained model:  
+[Bengali-Whisper-Base Huggingface](https://huggingface.co/emon-j/Bengali-Whisper-Base)
+
 Run trainer: 
 ```
 python trainer.py 
