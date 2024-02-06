@@ -58,7 +58,7 @@ class SpeechRecognitionEvaluator:
         print(f"Average WER: {average_wer}")
 
 # Example usage
-model_id = "openai/whisper-base"
+model_id = "openai/whisper-base"  # or set fine_tuned model folder 
 dataset_name = "google/fleurs"
 dataset_config = "bn_in"
 speech_recognition_evaluator = SpeechRecognitionEvaluator(model_id, dataset_name, dataset_config)
