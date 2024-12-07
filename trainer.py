@@ -48,7 +48,10 @@ class WhisperTrainer:
     def _load_model(self):
         config = AutoConfig.from_pretrained(self.model_name, use_cache=False)
         model = WhisperForConditionalGeneration.from_pretrained(self.model_name, config=config)
-        return model
+        for param in model.model.encoder.parameters():
+                param.requires_grad = False
+        return model 
+        
 
     def _prepare_dataset(self, batch):
         audio = batch['path']
