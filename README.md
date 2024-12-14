@@ -10,9 +10,9 @@ This repository contains the code and resources to reproduce the experiments pre
 
 ### Fine-tuned models (Decoder Only):
 
-*   [FineTuned-Base BN-DecOnly](https://huggingface.co/emon-j/Bengali-Whisper-Base)
-*   [FineTuned-Small BN-DecOnly](add link here)
-*   [FineTuned-Large-v2 BN-DecOnly](add link here)
+*   [FineTuned-Base BN-DecOnly](https://huggingface.co/emon-j/Bengali-Whsiper)
+*   [FineTuned-Small BN-DecOnly](https://huggingface.co/emon-j/Bengali-Whsiper)
+*   [FineTuned-Large-v2 BN-DecOnly](https://huggingface.co/emon-j/Bengali-Whsiper)
 
 ### Run the code:
 
@@ -41,6 +41,7 @@ This study focuses on fine-tuning the pre-trained Whisper model for Bengali spee
 3.  **Fine-tuning:**  The Whisper model is fine-tuned using both full fine-tuning and decoder-only strategies.
 4.  **Hyperparameter optimization:**  Bayesian hyperparameter optimization is performed to determine the optimal learning rate.
 5.  **Evaluation:**  The fine-tuned models are evaluated on the Common Voice and Fleurs datasets using Word Error Rate (WER) and Character Error Rate (CER) metrics.
+![asr](https://github.com/user-attachments/assets/95746114-f8ca-48bb-b040-72b2d37d814f)
 
 ## Whisper Architecture
 
@@ -48,6 +49,9 @@ Whisper is a Transformer-based encoder-decoder model. The encoder processes audi
 
 *   **Encoder:**  The encoder consists of convolutional layers for feature extraction, positional encoding, and multiple stacked residual attention blocks. Each attention block contains a self-attention mechanism and a feed-forward network.
 *   **Decoder:**  The decoder utilizes pre-trained token embeddings, learned positional embeddings, and residual attention blocks with self-attention and encoder-decoder cross-attention mechanisms. It also employs special tokens for multi-task operations.
+
+![image](https://github.com/user-attachments/assets/109bc430-4194-4293-a9f2-012f555185d2)
+
 
 ## Statistical Significance Test
 
