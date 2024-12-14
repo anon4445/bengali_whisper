@@ -14,19 +14,27 @@ This repository contains the code and resources to reproduce the experiments pre
 *   [FineTuned-Small BN-DecOnly](https://huggingface.co/emon-j/Bengali-Whsiper)
 *   [FineTuned-Large-v2 BN-DecOnly](https://huggingface.co/emon-j/Bengali-Whsiper)
 
-### Run the code:
-
 1.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-2.  **Train the model:**
+2.  **Install DeepSpeed:**
+    DeepSpeed installation requires specific CUDA toolkit versions. Please follow the official DeepSpeed installation instructions for detailed guidance:
+
+    *   **Official Installation Guide:** [https://www.deepspeed.ai/tutorials/advanced-install/](https://www.deepspeed.ai/tutorials/advanced-install/)
+
+    Here's a basic example using `pip`:
     ```bash
-    python trainer.py 
+    pip install deepspeed
     ```
 
-3.  **Evaluate the model:**
+3.  **Train the model:**
+    ```bash
+    deepspeed trainer.py 
+    ```
+
+4.  **Evaluate the model:**
     ```bash
     python evaluate_common_voice.py
     python fleurs.py
