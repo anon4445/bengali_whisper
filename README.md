@@ -1,7 +1,6 @@
-# Bengali-Whisper:Efficient Adaptation of Trasnformer Architecture for Bengali Speech Recognition
+# Improving Bengali Speech Recognition using Fine-tuned Whisper
 
-This repository contains the code and resources to reproduce the experiments presented in the paper "Bengali-Whisper: Efficient Adaptation of Trasnformer Architecture for Bengali
-Speech Recognition".
+This repository contains the code and resources to reproduce the experiments presented in the paper "Improving Bengali Speech Recognition using Fine-tuned Whisper".
 
 ## Reproduce the experiment:
 
