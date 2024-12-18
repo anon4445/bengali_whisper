@@ -1,6 +1,7 @@
-# Bengali-Whisper: A Transformer-Based Efficient Framework for Automatic Bengali Speech Recognition
+# Bengali-Whisper:Efficient Adaptation of Trasnformer Architecture for Bengali Speech Recognition
 
-This repository contains the code and resources to reproduce the experiments presented in the paper "Bengali-Whisper: A Transformer-Based Efficient Framework for Automatic Bengali Speech Recognition".
+This repository contains the code and resources to reproduce the experiments presented in the paper "Bengali-Whisper: Efficient Adaptation of Trasnformer Architecture for Bengali
+Speech Recognition".
 
 ## Reproduce the experiment:
 
@@ -59,6 +60,13 @@ Whisper is a Transformer-based encoder-decoder model. The encoder processes audi
 *   **Decoder:**  The decoder utilizes pre-trained token embeddings, learned positional embeddings, and residual attention blocks with self-attention and encoder-decoder cross-attention mechanisms. It also employs special tokens for multi-task operations.
 
 ![image](https://github.com/user-attachments/assets/109bc430-4194-4293-a9f2-012f555185d2)
+
+## Results 
+
+![image](https://github.com/user-attachments/assets/f1d25728-16cc-4c3c-af82-794eac7723f3)
+
+## Transcription Comparison 
+![image](https://github.com/user-attachments/assets/42839284-1cef-485a-8b65-bdf763bd9d57)
 
 
 ## Statistical Significance Test
